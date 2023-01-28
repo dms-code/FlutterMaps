@@ -1,30 +1,31 @@
-# flutter_maps
+# FlutterMaps
 
-A new Flutter project.
+## System Requirements
 
-## Getting Started
+- Flutter 3.3 or later
+- Dart 2.17.6 or later
+- DevTools 2.12.2 or later
+- XCODE 13.0 or later
+- Android SDK 30 or later
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+## Get the Source Code
+```
+git clone https://github.com/dms-code/FlutterMaps.git
+cd FlutterMaps
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Running from VSCODE
 
-## Assets
+- Open the VSCODE.
+- Install the Flutter plugin and Restart.
+- Go to menu `View -> Source Control -> Clone Repository`. Add the repo URL to download the source code.
+- Go to menu `Terminal -> Run Task -> Pub Get`.
+- Go to menu `Run -> Start Debugging`
+- Choose the emulator IOS or Android
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+#### Running Tests
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+- `flutter test`
 
-## Localization
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
-
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
